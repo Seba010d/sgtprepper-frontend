@@ -5,7 +5,7 @@ export const HeaderView = () => {
   element.className = "bg-slate-700 p-4 text-white";
   const h1 = Heading("Sgt. Prepper");
   element.append(h1);
-  const p = parent();
+  const p = Paragraph();
   const a = Link("/index.htm#/login", "Login");
   p.append(a);
   element.append(p);
