@@ -3,7 +3,7 @@ import { Div, Heading, Image, Input, Label, Li, Link, Paragraph, Ul } from "../a
 export const HeaderView = () => {
   const element = document.createElement("header");
   element.className = "bg-slate-700 p-4 text-white flex justify-between";
-  const img = Image("images/logo.svg", "Sgt. Prepper Logo");
+  const img = Image("images/logo.svg", "Logo");
   element.append(img);
 
   const p = Paragraph();
